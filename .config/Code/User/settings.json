@@ -1,0 +1,24 @@
+{
+  "omnisharp.dotnetPath": "/usr/share/dotnet/dotnet",
+  "dotnetAcquisitionExtension.sharedExistingDotnetPath": "/usr/share/dotnet/dotnet",
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "editor.fontFamily": "'FiraCode Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.empty.hint": "hidden",
+  "database-client.autoSync": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+}
