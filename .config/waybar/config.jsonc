@@ -45,7 +45,7 @@
         "disable-scroll": true,
         "all-outputs": false,
         "warp-on-scroll": false,
-        "format": "{name}: {icon}",
+        "format": "{name}:{icon}",
         "format-icons": {
             "1": "",
             "2": "",
@@ -169,7 +169,7 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "  {bandwidthDownBytes}   {bandwidthUpBytes}",
+        "format-alt": "  {bandwidthUpBytes}   {bandwidthDownBytes}",
         "interval": 1
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
@@ -206,6 +206,7 @@
     },
     "hyprland/window": {
         "format": "<span style=\"italic\">{}</span>",
+        "format-alt": "{}",
         "max-length": 60
     }
 }
