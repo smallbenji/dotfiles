@@ -1,3 +1,5 @@
 [user]
     name = work name
     email = email@work.com
+[credential]
+	helper = store
