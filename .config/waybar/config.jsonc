@@ -18,6 +18,7 @@
         "mpd",
         //"pulseaudio",
         //"network",
+	"custom/vm",
 	"group/information",
 	//"power-profiles-daemon",
         // "cpu",
@@ -209,5 +210,11 @@
         "format": "<span style=\"italic\">{}</span>",
         "format-alt": "{}",
         "max-length": 60
+    },
+    "custom/vm": {
+    	"exec": "~/.config/waybar/scripts/vm-status.sh",
+	"interval": 5,
+	"return-type": "json",
+	"on-click": "virt-viewer -c qemu:///system win11"
     }
 }
