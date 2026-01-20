@@ -1,0 +1,4 @@
+- community.general.pacman:
+    name:
+      - cowsay
+    state: absent
