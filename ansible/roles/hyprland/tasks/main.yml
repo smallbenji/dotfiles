@@ -6,4 +6,5 @@
       - hyprlock
       - hypridle
       - hyprpaper
+      - kitty
     state: present
