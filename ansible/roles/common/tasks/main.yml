@@ -2,3 +2,10 @@
     name:
       - cowsay
     state: absent
+- community.general.pacman:
+    name:
+      - git
+      - kubectl
+      - vim
+      - firefox
+    state: present

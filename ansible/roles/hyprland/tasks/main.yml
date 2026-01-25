@@ -1,0 +1,9 @@
+- community.general.pacman:
+    name:
+      - hyprland
+      - waybar
+      - hyprshot
+      - hyprlock
+      - hypridle
+      - hyprpaper
+    state: present
