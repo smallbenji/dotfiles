@@ -9,3 +9,9 @@
       - vim
       - firefox
     state: present
+- community.general.pacman:
+    name:
+      - zsh
+- shell:
+    cmd: |
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
