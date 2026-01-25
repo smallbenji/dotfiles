@@ -1,0 +1,6 @@
+- community.general.pacman:
+    name:
+      - mesa
+      - spice
+      - spice-gtk
+    state: present
