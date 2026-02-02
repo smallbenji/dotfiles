@@ -1,0 +1,3 @@
+#!/bin/bash
+virsh -c qemu:///system start win11
+virt-viewer -c qemu:///system --attach win11
