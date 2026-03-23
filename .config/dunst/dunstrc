@@ -16,6 +16,7 @@ foreground = "#cdd6f4"
 #background = "#1e1e2e"
 foreground = "#cdd6f4"
 background = "#111111"
+play_sound = yes
 
 [urgency_critical]
 #background = "#1e1e2e"
